@@ -18,3 +18,15 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char c= 'a';
+	print("%d", ft_isalpha(c));
+	return (0);
+}
+*/
+/* La función isalpha() comprueba si un caracter es una letra del alfabeto inglés.
+Devuelve un valor distinto de cero si el caracter es una letra y cero si no lo es.
+*/
